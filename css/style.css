@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+body{
+	font-family: "Lato";
+	color: #424551;
+}
+
+[class*="__container"]{
+	max-width: 1230px;
+	margin: 0 auto;
+}
+
+.page__title{
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 59.8px;
+	color: #1E212C;
+	margin-bottom: 40px;
+}
+
+.page__text{
+	line-height: 25.6px;
+	margin-bottom: 48px;
+}
+
+.page__subtitle{
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 42px;
+	color: #1E212C;
+	margin-bottom: 24px;
+}
+
+.page__list ul{
+	margin-bottom: 48px;
+}
+
+.page__list li{
+	margin-bottom: 4px;
+	padding-left: 32px;
+	line-height: 20px;
+	background: url("../img/icons/check.svg") 0 1px no-repeat;
+}
+
+.page__second-subtitle{
+	font-weight: 700;
+	line-height: 24px;
+	color: #1E212C;
+	margin-bottom: 8px;
+}
+
+h2.page__title{
+	margin-bottom: 16px;
+}
+
+.page__subtext{
+	font-size: 20px;
+	line-height: 30px;
+	color: #787A80;
+	margin-bottom: 32px;
+}
+
+.page__second-list ul{
+	font-weight: 700;
+	line-height: 25.6px;
+	color: #424551;
+	margin-bottom: 32px;
+}
+
+.page__second-list li{
+	margin-bottom: 4px;
+	padding-left: 24px;
+}
+
+.page__second-list .list__1{
+	background: url("../img/icons/Star.svg") 0 4px no-repeat;
+}
+
+.page__second-list .list__2{
+	background: url("../img/icons/Play.svg") 0 4px no-repeat;
+}
+
+.page__second-list .list__3{
+	background: url("../img/icons/Profile.svg") 0 4px no-repeat;
+}
+
+.example{
+	max-width: 810px;
+	margin: 0 auto;
+	font-family: "Lato";
+}
+
+h2{
+	font-size: 20px;
+	font-weight: 700;
+	color: #1E212C;
+	margin-bottom: 20px;
+}
+
+.link{
+	box-shadow: inset 2px 2px 2px 2px rgb(117, 188, 188), 1px 1px 1px 1px rgb(63, 243, 183);
+	display: inline-block;
+	margin-bottom: 20px;
+}
+
+.link:hover{
+	color: blueviolet;
+	text-decoration: underline;
+}
+
+.block{
+	background: linear-gradient(90deg, rgba(229,237,236,1) 0%, rgba(159,238,236,0.21922272326899506) 19%, rgba(19,222,209,1) 76%);
+	border-radius: 25px 25px;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+.block:hover{
+	background: linear-gradient(90deg, rgba(236,205,28,1) 0%, rgba(227,223,96,0.21922272326899506) 58%, rgba(219,230,187,0.3676821070224965) 76%);
+}
+
+.block__text{
+	background: yellow;
+	color: black;
+	border-radius: 15px 15px;
+}
+
+.block:hover .block__text{
+	visibility: visible;
+	opacity: 1;
+}
+
+.block__text{
+	opacity: 0;
+	visibility: hidden;
+}
+
+.link__next{
+	box-shadow: inset 2px 2px 2px 2px rgb(132, 162, 227), 1px 1px 1px 1px rgb(124, 169, 233);
+}
+
+.link__next:active{
+	color: rgb(255, 2, 187);
+}
+
+div{
+	margin-bottom: 20px;
+}
+
+a:visited{
+	color: red;
+}
+
+ul{
+	margin-left: 20px;
+	line-height: 18px;
+}
+ul ul{
+	display: none;
+}
+
+ul li:hover ul{
+	display: block;
+}
+
+.item:focus{
+	outline: 3px solid green;
+}
+
+.fragment{
+	background-color: rgb(179, 238, 150);
+	padding: 15px;
+	border-radius: 15px;
+	display: none;
+}
+
+.fragment:target{
+	display: block;
+}
+
+.text__example{
+	background-color: grey;
+	padding: 15px;
+	color: white;
+	line-height: 20px;
+}
+
+.text__example p:first-child{
+	color: rgba(201, 156, 243, 0.681);
+	text-transform: uppercase;
+}
+
+.text__example p:first-of-type{
+	color: burlywood;
+}
+
+.text__example p:last-child{
+	color: rgb(76, 234, 234);
+	text-decoration: underline;
+}
+
+.text__example p:last-of-type{
+	color: rgb(47, 240, 214);
+}
+
+.text__example p:nth-child(even){
+	color: rgb(214, 159, 241);
+	text-transform: uppercase;
+}
+
+.text__example p:nth-child(odd){
+	background-color: rgb(242, 242, 200);
+}
+
+.text__example p:not(:last-child){
+	margin-bottom: 15px;
+}
+
+.text__block{
+	background-color: rgb(144, 223, 223);
+	padding: 15px;
+	color: black;
+}
+
+.text__title{
+	font-weight: 700;
+	font-size: 40px;
+	margin-bottom: 20px;
+}
+
+.text__title:not(:last-child){
+	margin-bottom: 20px;
+}
+
+.text__text{
+	line-height: 21px;
+	margin-bottom: 30px;
+}
+
+.text__text:not(:last-child){
+	margin-bottom: 30px;
+}
+
+.text__link{
+	text-decoration: underline;
+	display: inline-block;
+	color: rgb(39, 46, 238);
+}
+
+.text__link:not(:last-child){
+	margin-bottom: 20px;
+}
+
+.text__link:hover{
+	text-decoration: none;
+}
+
+span::before{
+	content: "===";
+}
+
+span::after{
+	content: "---";
+}
+
+.example__div::before{
+	content: "(((";
+}
+
+.example__div::after{
+	content: ")))";
+}
